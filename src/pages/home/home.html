@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Studio Pilates Manzaneque</ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding no-bounce>
+  <ion-title> Bienvenid@ {{ nombre }} </ion-title>
+
+  <ion-list no-lines>
+    <button ion-item *ngFor="let dia of horarios">
+      {{ dia }}
+    </button>
+  </ion-list>
+
+
+
+</ion-content>
